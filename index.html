@@ -37,6 +37,20 @@
       </div>
     </div>
 
+    <div class="row-fluid">
+      <ul class="list-group">
+      {% if site.data.pkg.related %}
+        {% for related in site.data.pkg.related %}
+          <li class="list-group-item">{{related}}</li>
+        {% endfor %}
+      {% else %}
+        {% for related in site.data.pkg.dependencies %}
+          <li class="list-group-item">{{related[0]}}</li>
+        {% endfor %}
+      {% endif %}
+      </ul>
+    </div>
+
     <a href='{{site.github.repository_url}}' class='github-ribbon'><img src='assets/images/github-ribbons/red.png' /></a>
   </body>
 </html>
