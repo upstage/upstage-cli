@@ -21,11 +21,6 @@ function Application () {
 }
 
 Application.prototype.run = function(dirs, argv, done) {
-  console.log('\n === Running === ');
-  console.log(dirs.join('\n'));
-  console.log(argv);
-  console.log(' =============== \n');
-
   var options = merge({
     templates: path.join(__dirname, 'lib', 'templates')
   }, argv);
@@ -39,14 +34,11 @@ Application.prototype.run = function(dirs, argv, done) {
 
   tasks.forEach(function (task) {
     gulp.task('build-' + task.name, build(merge({}, {cwd: task.cwd}, options)));
-    gulp.task('push-' + task.name, push(merge({}, {cwd: task.cwd}, options)));
+    gulp.task('push-' + task.name, ['build-' + task.name], push(merge({}, {cwd: task.cwd}, options)));
     gulp.task(task.name, ['build-' + task.name, 'push-' + task.name]);
   });
 
-  gulp.run(tasks.map(prop('name')), function () {
-    console.log('finished gulp.run', arguments);
-    done(null);
-  });
+  gulp.start.apply(gulp, tasks.map(prop('name')).concat(done));
 };
 
 function prop(key) {
