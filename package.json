@@ -35,6 +35,7 @@
     "globby": "^2.0.0",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
+    "helper-related": "^0.7.1",
     "inquirer": "^0.8.5",
     "is-glob": "^2.0.0",
     "js-yaml": "^3.3.1",
