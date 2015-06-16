@@ -8,8 +8,11 @@
 'use strict';
 
 var extend = require('extend-shallow');
-var glob = require('globby');
 var path = require('path');
+var gulp = require('gulp');
+
+var build = require('./lib/tasks/build');
+var push = require('./lib/tasks/push');
 
 function Application () {
   if (!(this instanceof Application)) {
@@ -27,7 +30,20 @@ Application.prototype.run = function(dirs, argv, done) {
     templates: path.join(__dirname, 'lib', 'templates')
   }, argv);
 
-  console.log('options', options);
+  var tasks = dirs.map(function (dir) {
+    return path.basename(path.resolve(dir));
+  }).filter(Boolean);
+
+  tasks.forEach(function (task) {
+    gulp.task('build-' + task, build(extend({}, options)));
+    gulp.task('push-' + task, push(extend({}, options)));
+    gulp.task(task, ['build-' + task, 'push-' + task]);
+  });
+
+  gulp.run(tasks, function () {
+    console.log('finished gulp.run', arguments);
+    done(null);
+  });
 };
 
 module.exports = Application();

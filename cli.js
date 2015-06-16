@@ -32,6 +32,8 @@ if (!isGlob(patterns) && patterns !== './') {
   patterns = patterns + '*/';
 }
 var dirs =  glob.sync(patterns);
+
+// local project so just run immediately
 if (dirs.length === 1 && dirs[0] === './') {
   return app.run(flatten(dirs), argv, done);
 }
