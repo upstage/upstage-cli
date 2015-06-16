@@ -7,7 +7,7 @@
 
 'use strict';
 
-var extend = require('extend-shallow');
+var merge = require('merge-deep');
 var path = require('path');
 var gulp = require('gulp');
 
@@ -26,24 +26,33 @@ Application.prototype.run = function(dirs, argv, done) {
   console.log(argv);
   console.log(' =============== \n');
 
-  var options = extend({
+  var options = merge({
     templates: path.join(__dirname, 'lib', 'templates')
   }, argv);
 
   var tasks = dirs.map(function (dir) {
-    return path.basename(path.resolve(dir));
+    return {
+      cwd: path.resolve(dir),
+      name: path.basename(path.resolve(dir))
+    };
   }).filter(Boolean);
 
   tasks.forEach(function (task) {
-    gulp.task('build-' + task, build(extend({}, options)));
-    gulp.task('push-' + task, push(extend({}, options)));
-    gulp.task(task, ['build-' + task, 'push-' + task]);
+    gulp.task('build-' + task.name, build(merge({}, {cwd: task.cwd}, options)));
+    gulp.task('push-' + task.name, push(merge({}, {cwd: task.cwd}, options)));
+    gulp.task(task.name, ['build-' + task.name, 'push-' + task.name]);
   });
 
-  gulp.run(tasks, function () {
+  gulp.run(tasks.map(prop('name')), function () {
     console.log('finished gulp.run', arguments);
     done(null);
   });
 };
+
+function prop(key) {
+  return function (obj) {
+    return obj[key];
+  };
+}
 
 module.exports = Application();
