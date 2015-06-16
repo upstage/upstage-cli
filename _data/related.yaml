@@ -1,57 +1,68 @@
 content: >-
-  * [arr-flatten](https://github.com/jonschlinkert/arr-flatten): Recursively
-  flatten an array or arrays. This is the fastest implementation of array
-  flatten.
+  <li><a href="https://github.com/jonschlinkert/arr-flatten">arr-flatten</a>:
+  Recursively flatten an array or arrays. This is the fastest implementation of
+  array flatten.</li>
 
-  * [data-store](https://github.com/jonschlinkert/data-store): Easily get, set
-  and persist config data.
+  <li><a href="https://github.com/jonschlinkert/data-store">data-store</a>:
+  Easily get, set and persist config data.</li>
 
-  * [extend-shallow](https://github.com/jonschlinkert/extend-shallow): Extend an
-  object with the properties of additional objects. node.js/javascript util.
+  <li><a
+  href="https://github.com/jonschlinkert/extend-shallow">extend-shallow</a>:
+  Extend an object with the properties of additional objects. node.js/javascript
+  util.</li>
 
-  * [gift](https://github.com/notatestuser/gift): a Git wrapper library
+  <li><a href="https://github.com/notatestuser/gift">gift</a>: a Git wrapper
+  library</li>
 
-  * [glob](https://github.com/isaacs/node-glob#readme): a little globber
+  <li><a href="https://github.com/isaacs/node-glob#readme">glob</a>: a little
+  globber</li>
 
-  * [globby](https://github.com/sindresorhus/globby): Extends `glob` with support
-  for multiple patterns
+  <li><a href="https://github.com/sindresorhus/globby">globby</a>: Extends `glob`
+  with support for multiple patterns</li>
 
-  * [gulp](http://gulpjs.com): The streaming build system
+  <li><a href="http://gulpjs.com">gulp</a>: The streaming build system</li>
 
-  * [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages#readme): gulp plugin
-  to publish contents to Github pages
+  <li><a href="https://github.com/shinnn/gulp-gh-pages#readme">gulp-gh-pages</a>:
+  gulp plugin to publish contents to Github pages</li>
 
-  * [helper-related](https://github.com/helpers/helper-related): Template helper
-  for generating a list of links to the homepages of related GitHub/npm
-  projects.
+  <li><a href="https://github.com/helpers/helper-related">helper-related</a>:
+  Template helper for generating a list of links to the homepages of related
+  GitHub/npm projects.</li>
 
-  * [inquirer](undefined): A collection of common interactive command line user
-  interfaces.
+  <li><a href="undefined">inquirer</a>: A collection of common interactive
+  command line user interfaces.</li>
 
-  * [is-glob](https://github.com/jonschlinkert/is-glob): Returns `true` if the
-  given string looks like a glob pattern.
+  <li><a href="https://github.com/jonschlinkert/is-glob">is-glob</a>: Returns
+  `true` if the given string looks like a glob pattern.</li>
 
-  * [js-yaml](https://github.com/nodeca/js-yaml): YAML 1.2 parser and serializer
+  <li><a href="https://github.com/nodeca/js-yaml">js-yaml</a>: YAML 1.2 parser
+  and serializer</li>
 
-  * [log-symbols](https://github.com/sindresorhus/log-symbols): Colored symbols
-  for various log levels. Example: ✔︎ success
+  <li><a href="https://github.com/sindresorhus/log-symbols">log-symbols</a>:
+  Colored symbols for various log levels. Example: ✔︎ success</li>
 
-  * [lookup-path](https://github.com/jonschlinkert/lookup-path): Attempt to
-  resolve the absolute filepath to a file and verify that it exists.
+  <li><a href="https://github.com/jonschlinkert/lookup-path">lookup-path</a>:
+  Attempt to resolve the absolute filepath to a file and verify that it
+  exists.</li>
 
-  * [merge-deep](https://github.com/jonschlinkert/merge-deep): Recursively merge
-  values in a javascript object.
+  <li><a href="https://github.com/jonschlinkert/merge-deep">merge-deep</a>:
+  Recursively merge values in a javascript object.</li>
 
-  * [minimist](https://github.com/substack/minimist): parse argument options
+  <li><a href="https://github.com/substack/minimist">minimist</a>: parse argument
+  options</li>
 
-  * [question-cache](https://github.com/jonschlinkert/question-cache): A tiny
-  wrapper around inquirer that makes it easy to create and selectively reuse
-  questions.… [more](https://github.com/jonschlinkert/question-cache)
+  <li><a
+  href="https://github.com/jonschlinkert/question-cache">question-cache</a>:
+  A tiny wrapper around inquirer that makes it easy to create and selectively
+  reuse questions.… <a
+  href="https://github.com/jonschlinkert/question-cache">more</a></li>
 
-  * [rimraf](https://github.com/isaacs/rimraf#readme): A deep deletion module for
-  node (like `rm -rf`)
+  <li><a href="https://github.com/isaacs/rimraf#readme">rimraf</a>: A deep
+  deletion module for node (like `rm -rf`)</li>
 
-  * [through2](https://github.com/rvagg/through2#readme): A tiny wrapper around
-  Node streams2 Transform to avoid explicit subclassing noise
+  <li><a href="https://github.com/rvagg/through2#readme">through2</a>: A tiny
+  wrapper around Node streams2 Transform to avoid explicit subclassing
+  noise</li>
 
-  * [vinyl](http://github.com/wearefractal/vinyl): A virtual file format
+  <li><a href="http://github.com/wearefractal/vinyl">vinyl</a>: A virtual file
+  format</li>
