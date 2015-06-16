@@ -1,41 +1,57 @@
-name: ghp
-description: CLI for deploying gh-pages.
-version: 0.1.0
-homepage: 'https://github.com/doowb/ghp'
-author: 'Brian Woodward (https://github.com/doowb)'
-repository: doowb/ghp
-bugs:
-  url: 'https://github.com/doowb/ghp/issues'
-license: MIT
-files:
-  - lib/
-  - index.js
-main: index.js
-bin:
-  ghp: ./cli.js
-engines:
-  node: '>=0.10.0'
-scripts:
-  test: mocha
-devDependencies:
-  mocha: '*'
-dependencies:
-  arr-flatten: ^1.0.1
-  data-store: ^0.6.1
-  extend-shallow: ^1.1.4
-  gift: ^0.6.0
-  glob: ^5.0.10
-  globby: ^2.0.0
-  gulp: ^3.9.0
-  gulp-gh-pages: ^0.5.2
-  inquirer: ^0.8.5
-  is-glob: ^2.0.0
-  js-yaml: ^3.3.1
-  log-symbols: ^1.0.2
-  lookup-path: ^0.3.0
-  merge-deep: ^1.0.3
-  minimist: ^1.1.1
-  question-cache: ^0.1.0
-  rimraf: ^2.4.0
-  through2: ^2.0.0
-  vinyl: ^0.5.0
+content: >-
+  * [arr-flatten](https://github.com/jonschlinkert/arr-flatten): Recursively
+  flatten an array or arrays. This is the fastest implementation of array
+  flatten.
+
+  * [data-store](https://github.com/jonschlinkert/data-store): Easily get, set
+  and persist config data.
+
+  * [extend-shallow](https://github.com/jonschlinkert/extend-shallow): Extend an
+  object with the properties of additional objects. node.js/javascript util.
+
+  * [gift](https://github.com/notatestuser/gift): a Git wrapper library
+
+  * [glob](https://github.com/isaacs/node-glob#readme): a little globber
+
+  * [globby](https://github.com/sindresorhus/globby): Extends `glob` with support
+  for multiple patterns
+
+  * [gulp](http://gulpjs.com): The streaming build system
+
+  * [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages#readme): gulp plugin
+  to publish contents to Github pages
+
+  * [helper-related](https://github.com/helpers/helper-related): Template helper
+  for generating a list of links to the homepages of related GitHub/npm
+  projects.
+
+  * [inquirer](undefined): A collection of common interactive command line user
+  interfaces.
+
+  * [is-glob](https://github.com/jonschlinkert/is-glob): Returns `true` if the
+  given string looks like a glob pattern.
+
+  * [js-yaml](https://github.com/nodeca/js-yaml): YAML 1.2 parser and serializer
+
+  * [log-symbols](https://github.com/sindresorhus/log-symbols): Colored symbols
+  for various log levels. Example: ✔︎ success
+
+  * [lookup-path](https://github.com/jonschlinkert/lookup-path): Attempt to
+  resolve the absolute filepath to a file and verify that it exists.
+
+  * [merge-deep](https://github.com/jonschlinkert/merge-deep): Recursively merge
+  values in a javascript object.
+
+  * [minimist](https://github.com/substack/minimist): parse argument options
+
+  * [question-cache](https://github.com/jonschlinkert/question-cache): A tiny
+  wrapper around inquirer that makes it easy to create and selectively reuse
+  questions.… [more](https://github.com/jonschlinkert/question-cache)
+
+  * [rimraf](https://github.com/isaacs/rimraf#readme): A deep deletion module for
+  node (like `rm -rf`)
+
+  * [through2](https://github.com/rvagg/through2#readme): A tiny wrapper around
+  Node streams2 Transform to avoid explicit subclassing noise
+
+  * [vinyl](http://github.com/wearefractal/vinyl): A virtual file format
