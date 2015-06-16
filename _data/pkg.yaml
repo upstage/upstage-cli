@@ -1,0 +1,42 @@
+name: ghp
+description: CLI for deploying gh-pages.
+version: 0.1.0
+homepage: 'https://github.com/doowb/ghp'
+author: 'Brian Woodward (https://github.com/doowb)'
+repository: doowb/ghp
+bugs:
+  url: 'https://github.com/doowb/ghp/issues'
+license: MIT
+files:
+  - lib/
+  - index.js
+main: index.js
+bin:
+  ghp: ./cli.js
+engines:
+  node: '>=0.10.0'
+scripts:
+  test: mocha
+devDependencies:
+  mocha: '*'
+dependencies:
+  arr-flatten: ^1.0.1
+  data-store: ^0.6.1
+  extend-shallow: ^1.1.4
+  gift: ^0.6.0
+  glob: ^5.0.10
+  globby: ^2.0.0
+  gulp: ^3.9.0
+  gulp-gh-pages: ^0.5.2
+  helper-related: ^0.7.1
+  inquirer: ^0.8.5
+  is-glob: ^2.0.0
+  js-yaml: ^3.3.1
+  log-symbols: ^1.0.2
+  lookup-path: ^0.3.0
+  merge-deep: ^1.0.3
+  minimist: ^1.1.1
+  question-cache: ^0.1.0
+  rimraf: ^2.4.0
+  through2: ^2.0.0
+  vinyl: ^0.5.0
