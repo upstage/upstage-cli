@@ -17,6 +17,9 @@ content: >-
   <li><a href="https://github.com/isaacs/node-glob#readme">glob</a>: a little
   globber</li>
 
+  <li><a href="https://github.com/es128/glob-parent">glob-parent</a>: Strips glob
+  magic from a string to provide the parent path</li>
+
   <li><a href="https://github.com/sindresorhus/globby">globby</a>: Extends `glob`
   with support for multiple patterns</li>
 
