@@ -30,6 +30,7 @@
     "arr-flatten": "^1.0.1",
     "data-store": "^0.6.1",
     "extend-shallow": "^1.1.4",
+    "get-value": "^1.1.5",
     "gift": "^0.6.0",
     "glob": "^5.0.10",
     "glob-parent": "^1.2.0",
@@ -48,5 +49,13 @@
     "rimraf": "^2.4.0",
     "through2": "^2.0.0",
     "vinyl": "^0.5.0"
+  },
+  "verbiage": {
+    "related": {
+      "description": "Projects related to gh-pages publisher",
+      "links": [
+        "helper-related"
+      ]
+    }
   }
 }
