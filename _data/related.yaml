@@ -1,1 +1,1 @@
-content: '<a href="https://github.com/eventEmitter/related">related</a>: ORM for postgres and mysql. Loads and saves referenced entites, executes complex queries, supports joins,… <a href="https://github.com/eventEmitter/related">more</a>'
+content: '<a href="https://github.com/helpers/helper-related">helper-related</a>: Template helper for generating a list of links to the homepages of related GitHub/npm projects.'
