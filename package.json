@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "arr-flatten": "^1.0.1",
+    "async": "^1.2.1",
+    "config-file": "git://github.com/jonschlinkert/config-file#custom-cwd",
     "data-store": "^0.6.1",
     "extend-shallow": "^1.1.4",
     "get-value": "^1.1.5",
