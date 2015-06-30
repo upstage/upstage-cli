@@ -1,5 +1,5 @@
 /*!
- * ghp <https://github.com/doowb/ghp>
+ * ghp <https://github.com/upstage/upstage-cli>
  *
  * Copyright (c) 2015, Brian Woodward.
  * Licensed under the MIT License.
