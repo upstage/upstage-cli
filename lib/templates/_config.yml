@@ -1,0 +1,41 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore .upstage.yml]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+# replace with repo title
+title:       "Upstage - Page generated with upstage"
+# replace with repo keywords
+keywords:    "upstage, template"
+# replace with repo description
+description: "This site is generated with upstage"
+# replace with repo link
+source_link: "https://github.com/upstage/upstage-cli"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+
+## get analytics key (blank to disable)
+google_analytics_key:
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
