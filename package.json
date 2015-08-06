@@ -28,34 +28,32 @@
   },
   "dependencies": {
     "arr-flatten": "^1.0.1",
-    "async": "^1.2.1",
+    "async": "^1.4.0",
     "config-file": "git://github.com/jonschlinkert/config-file#custom-cwd",
-    "data-store": "^0.6.1",
-    "extend-shallow": "^1.1.4",
+    "data-store": "^0.8.1",
     "get-value": "^1.1.5",
-    "gift": "^0.6.0",
-    "glob": "^5.0.10",
+    "gift": "^0.6.1",
+    "glob": "^5.0.14",
     "glob-parent": "^1.2.0",
-    "globby": "^2.0.0",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
-    "helper-related": "^0.8.0",
-    "inquirer": "^0.8.5",
+    "helper-related": "^0.10.0",
+    "inquirer": "^0.9.0",
     "is-glob": "^2.0.0",
     "js-yaml": "^3.3.1",
     "log-symbols": "^1.0.2",
     "lookup-path": "^0.3.0",
-    "merge-deep": "^1.0.3",
-    "minimist": "^1.1.1",
-    "question-cache": "^0.1.0",
-    "rimraf": "^2.4.0",
+    "merge-deep": "^2.0.0",
+    "minimist": "^1.1.2",
+    "question-cache": "^0.1.2",
+    "rimraf": "^2.4.2",
     "through2": "^2.0.0",
-    "vinyl": "^0.5.0"
+    "vinyl": "^0.5.1"
   },
-  "verbiage": {
+  "verb": {
     "related": {
       "description": "Projects related to upstage cli.",
-      "links": [
+      "list": [
         "helper-related"
       ]
     }
