@@ -1,1 +1,81 @@
-content: '<a href="https://github.com/helpers/helper-related">helper-related</a>: Template helper for generating a list of links to the homepages of related GitHub/npm projects.'
+content: >-
+  * [arr-flatten](https://www.npmjs.com/package/arr-flatten): Recursively flatten
+  an array or arrays. This is the fastest implementation of array flatten.
+  | [homepage](https://github.com/jonschlinkert/arr-flatten)
+
+  * [async](https://www.npmjs.com/package/async): Higher-order functions and
+  common patterns for asynchronous code
+  | [homepage](https://github.com/caolan/async)
+
+  * [config-file](https://www.npmjs.com/package/config-file): Find and load
+  a YAML or JSON config file (like .jshintrc, package.json, bower.json etc) from…
+  [more](https://www.npmjs.com/package/config-file)
+  | [homepage](https://github.com/jonschlinkert/config-file)
+
+  * [data-store](https://www.npmjs.com/package/data-store): Easily get, set and
+  persist config data. | [homepage](https://github.com/jonschlinkert/data-store)
+
+  * [get-value](https://www.npmjs.com/package/get-value): Use property paths
+  (`a.b.c`) to get a nested value from an object.
+  | [homepage](https://github.com/jonschlinkert/get-value)
+
+  * [gift](https://www.npmjs.com/package/gift): a Git wrapper library
+  | [homepage](https://github.com/notatestuser/gift)
+
+  * [glob](https://www.npmjs.com/package/glob): a little globber
+  | [homepage](https://github.com/isaacs/node-glob)
+
+  * [glob-parent](https://www.npmjs.com/package/glob-parent): Strips glob magic
+  from a string to provide the parent path
+  | [homepage](https://github.com/es128/glob-parent)
+
+  * [gulp](https://www.npmjs.com/package/gulp): The streaming build system
+  | [homepage](http://gulpjs.com)
+
+  * [gulp-gh-pages](https://www.npmjs.com/package/gulp-gh-pages): gulp plugin to
+  publish contents to Github pages
+  | [homepage](https://github.com/shinnn/gulp-gh-pages)
+
+  * [helper-related](https://www.npmjs.com/package/helper-related): Template
+  helper for generating a list of links to the homepages of related GitHub/npm
+  projects. | [homepage](https://github.com/helpers/helper-related)
+
+  * [inquirer](https://www.npmjs.com/package/inquirer): A collection of common
+  interactive command line user interfaces.
+  | [homepage](https://github.com/sboudrias/Inquirer.js)
+
+  * [is-glob](https://www.npmjs.com/package/is-glob): Returns `true` if the given
+  string looks like a glob pattern.
+  | [homepage](https://github.com/jonschlinkert/is-glob)
+
+  * [js-yaml](https://www.npmjs.com/package/js-yaml): YAML 1.2 parser and
+  serializer | [homepage](https://github.com/nodeca/js-yaml)
+
+  * [log-symbols](https://www.npmjs.com/package/log-symbols): Colored symbols for
+  various log levels. Example: ✔︎ success
+  | [homepage](https://github.com/sindresorhus/log-symbols)
+
+  * [lookup-path](https://www.npmjs.com/package/lookup-path): Attempt to resolve
+  the absolute filepath to a file and verify that it exists.
+  | [homepage](https://github.com/jonschlinkert/lookup-path)
+
+  * [merge-deep](https://www.npmjs.com/package/merge-deep): Recursively merge
+  values in a javascript object.
+  | [homepage](https://github.com/jonschlinkert/merge-deep)
+
+  * [minimist](https://www.npmjs.com/package/minimist): parse argument options
+  | [homepage](https://github.com/substack/minimist)
+
+  * [question-cache](https://www.npmjs.com/package/question-cache): A wrapper
+  around inquirer that makes it easy to create and selectively reuse questions.
+  | [homepage](https://github.com/jonschlinkert/question-cache)
+
+  * [rimraf](https://www.npmjs.com/package/rimraf): A deep deletion module for
+  node (like `rm -rf`) | [homepage](https://github.com/isaacs/rimraf)
+
+  * [through2](https://www.npmjs.com/package/through2): A tiny wrapper around
+  Node streams2 Transform to avoid explicit subclassing noise
+  | [homepage](https://github.com/rvagg/through2)
+
+  * [vinyl](https://www.npmjs.com/package/vinyl): A virtual file format
+  | [homepage](http://github.com/wearefractal/vinyl)
